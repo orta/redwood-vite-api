@@ -6,9 +6,17 @@
       "web"
     ]
   },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
   "devDependencies": {
     "@redwoodjs/core": "7.7.4",
-    "@redwoodjs/project-config": "7.7.4"
+    "@redwoodjs/project-config": "7.7.4",
+    "unplugin-auto-import": "^0.18.2",
+    "vite": "^5.4.1",
+    "vite-plugin-node": "^3.1.0",
+    "vite-tsconfig-paths": "^5.0.1"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
