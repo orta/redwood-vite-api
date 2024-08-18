@@ -22,5 +22,5 @@ This is not meant to be a tutorial, but a reference for core team members to und
 ### Current spaces I'm exploring
 
 - SDL does not updated when you make changes to those files (maybe need to explore HMR API or vite plugin)
-- There isn't a hook now for generating the schema in a text file (can use envelope plugin + graphqljs `printSchema`) in user-land
+- There isn't a hook now for generating the schema in a text file (can use envelope plugin + graphqljs `printSchema` in user-land)
 - SDL codegen now has a reason for a watcher mode, could come with a 'vite plugin' which simply is given filepaths
